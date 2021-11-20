@@ -9,7 +9,6 @@ public class samsung extends phone   { /* need to extend class like parents clas
 		
 		
 		
-		
 
 
 }

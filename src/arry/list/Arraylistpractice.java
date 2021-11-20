@@ -10,7 +10,9 @@ import org.testng.Assert;
 public class Arraylistpractice {
 
 	public static void main(String[] args) {
-
+String r = "10";
+int i = Integer.parseInt(r);
+System.out.println(i);
 String []a =new String[1];
 a[0]="rajat";
 System.out.println(a[0]);
@@ -25,6 +27,7 @@ as.add("ravi");
 as.add("gaurag");
 as.add("raja");
 ar.retainAll(as);
+
 System.out.println(ar);
 
 if(ar.isEmpty()) {

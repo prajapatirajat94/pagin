@@ -5,7 +5,8 @@ public class child extends PARENTS    { // we have inharited property of parents
 	public static void main(String[] args) {
 		
 		child obj = new child();
-		PARENTS obj1 = new PARENTS();
+		PARENTS obj2 = new PARENTS();
+		
 			
 	}
 		public child() {

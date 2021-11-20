@@ -8,6 +8,7 @@ public class methodoverloading { // class declaration
 	obj.sum(1);
 	System.out.println(obj.sum(1, 2));
 	System.out.println(obj.sum(1));
+	
 }
 	public int sum(int a, int b) {
 		int c = a+b;

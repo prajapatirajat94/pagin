@@ -11,4 +11,7 @@ public phone() {
 public static void details() {
 	System.out.println("Method with body");
 }
+public void Endcall() {
+	
+}
 }

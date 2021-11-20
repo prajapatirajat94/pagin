@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class Seleniumasn1 {
+public class Javascriptpractice {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chorome.drive", "chromedriver.exe"); // Open browser 
