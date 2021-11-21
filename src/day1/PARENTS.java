@@ -14,7 +14,7 @@ public class PARENTS {
 		System.out.println("My num is: "+a+"name is: "+s);
 		
 	}
-	public static void PARE() {
+	public void PARE() {
 		System.out.println("with out parameter parents over");
 	}
 }

@@ -5,7 +5,8 @@ public class child extends PARENTS    { // we have inharited property of parents
 	public static void main(String[] args) {
 		
 		child obj = new child();
-		PARENTS obj2 = new PARENTS();
+		obj.PARE();		
+		
 		
 			
 	}
@@ -14,7 +15,8 @@ public class child extends PARENTS    { // we have inharited property of parents
 		
 			System.out.println("i am from child x");
 		}
-		public static void  PARE1() {
+		
+		public void PARE() {
 			System.out.println("with out parameter child cx");
 		}
 }
