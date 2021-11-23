@@ -1,20 +1,29 @@
 package day1;
 
-public class PARENTS {
+import java.util.ArrayList;
 
+public class PARENTS {
+String name;
+	int dob;
+	ArrayList<String>carfeature;
+	
 	public static void main(String[] args) {
-		PARENTS obj = new PARENTS(1,"Rajat");
-		
-		
+		ArrayList<String>rajatcardetails = new ArrayList<String>();
+		rajatcardetails.add("hyundai");
+		rajatcardetails.add("Elantra");
+		rajatcardetails.add("2017");
+		PARENTS emp1 = new PARENTS("Rajat",19,rajatcardetails);
+		System.out.println(emp1.name);
+		System.out.println(emp1.dob);
+		System.out.println(emp1.carfeature);
 }
 	public PARENTS() {
-		System.out.println("with out parameter parents cx");
+		System.out.println("Parent class defult constructor");
 	}
-	public PARENTS(int a,String s) {
-		System.out.println("My num is: "+a+"name is: "+s);
-		
+	public PARENTS(String name,int dob,	ArrayList<String>carfeature) {
+		this.name = name;
+		this.dob = dob;
+		this.carfeature=carfeature;
 	}
-	public void PARE() {
-		System.out.println("with out parameter parents over");
-	}
+	
 }
