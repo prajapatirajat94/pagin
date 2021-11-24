@@ -39,7 +39,7 @@ public class Navigatiion {
     	System.out.println("URL belongs to another domain, skipping it");
     	continue;
     }
-    
+   
     
    try { huc =(HttpURLConnection)(new URL(url)).openConnection();
     huc.setRequestMethod("HEAD");
