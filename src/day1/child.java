@@ -8,7 +8,7 @@ public class child extends PARENTS    { // we have inharited property of parents
 				
 	}
 		public child () {
-			
+			System.out.println("my name is rajat");
 		System.out.println("child class default constructor....");
 		}
 		

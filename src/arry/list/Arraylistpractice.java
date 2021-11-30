@@ -29,14 +29,13 @@ as.add("raja");
 ar.retainAll(as);
 
 System.out.println(ar);
-
+System.out.println(ar.isEmpty());
 if(ar.isEmpty()) {
 	System.out.println("No same items");
 }
 else {
 	System.out.println("there are same items");
 }
-Assert.assertEquals(ar.isEmpty(),true);
 
 	}
 
